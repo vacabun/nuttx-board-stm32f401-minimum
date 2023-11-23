@@ -20,3 +20,11 @@ if ARCH_BOARD_STM32F401_MINIMUM
 source "boards/arm/stm32/stm32f401-minimum/Kconfig"
 endif
 ```
+run:
+
+```
+make distclean
+tools/configure.sh -l stm32f401-minimum:nsh
+make menuconfig
+make -j64
+```
