@@ -1,1 +1,1 @@
-# nuttx-stm32f401-stm32f401-minimum
+# nuttx board stm32f401-minimum
